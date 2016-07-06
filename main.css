@@ -1,0 +1,36 @@
+body {
+    background-image: url(Vainglory_Halcyon_Fold_map.tif.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+* {
+    color: whitesmoke;
+    box-sizing: border-box;
+}
+
+strong {
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 200px;
+    background: white;
+    opacity:0.3;
+    
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    [class^="col-"] {
+        width: 100%;
+    }
+}
+div{font-size:30px;
+padding: 20px}
