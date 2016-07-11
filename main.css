@@ -15,10 +15,9 @@ strong {
     display: inline-block;
     font-size: 50px;
     text-align: center;
-    margin-left: 200px;
+    margin: 200px;
     background: white;
-    opacity:0.3;
-    
+    opacity: 0.3;
 }
 
 .row::after {
@@ -32,5 +31,9 @@ strong {
         width: 100%;
     }
 }
-div{font-size:30px;
-padding: 20px}
+
+div {
+    font-size: 30px;
+    padding: 10px;
+    
+}
