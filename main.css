@@ -15,7 +15,6 @@ strong {
     display: inline-block;
     font-size: 50px;
     text-align: center;
-    margin: 200px;
     background: white;
     opacity: 0.3;
 }
@@ -37,3 +36,4 @@ div {
     padding: 10px;
     
 }
+img{ cursor: pointer; }
